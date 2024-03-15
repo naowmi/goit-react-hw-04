@@ -46,7 +46,7 @@ useEffect(() => {
   }
 getData()
  
-}, [query, page, allDataLoaded])
+}, [query, page])
 
   const handleSearch = async (newQuery) => {
     if (query === newQuery) return

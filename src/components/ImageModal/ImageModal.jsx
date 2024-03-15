@@ -11,12 +11,12 @@ export default function ImageModal({ onOpen, onClose, image }) {
   <Modal
             isOpen={onOpen}
             style={customStyle}
-        className={css.customStyle}
+        className={css.modal}
         onRequestClose={onClose}
         >
             <div>
                {image && <img
-                    className={css.modal}
+                    className={css.img}
                     src={image.urls.regular}
                     alt={image.alt_description}
                 />

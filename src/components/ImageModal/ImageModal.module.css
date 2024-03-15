@@ -1,8 +1,8 @@
-.modal {
-  width: 100%;
-  height: 100%;
+.img {
+  width: 1400px;
+  height: 900px;
 }
-.customStyle {
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -14,5 +14,4 @@
   background: none;
   border: none;
   outline: none;
-  width: 65%;
 }
